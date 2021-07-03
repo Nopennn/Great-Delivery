@@ -1,0 +1,50 @@
+body {
+    background:  url('../img/fon1.jpg');
+}
+
+
+
+.block1 {
+	background:  url('../img/menu6.jpg') no-repeat 0 0/100% 100% ;
+	border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 110px;
+    margin-top: 100px;
+}
+
+.block2 {
+	background:  url('../img/menu3.jpg') no-repeat center;
+	border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin-top: 230px;
+    margin-left: 60px;
+   }
+
+   .VE {
+    color: darkorange;
+
+}
+.VE1 {
+    color: black;
+    font-style: italic;
+}
+
+h1 { text-align: center }
+
