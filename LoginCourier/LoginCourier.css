@@ -64,10 +64,10 @@ button:hover{
 	border: 1px solid #000;
 	border-radius: 20px;
 	box-shadow: 0 0 20px;
-	background: url('../img/bg.jpg');
+	background: url('bg.jpg');
 }
 body{
-	background: url('../img/bg.jpg');
+	background: url('bg.jpg');
 }
 .Reg{
 	cursor: pointer;
