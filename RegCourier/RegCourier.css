@@ -42,7 +42,7 @@ input{
 	border: 1px solid #000;
 }
 body{
-	background: url('../img/bg.jpg');
+	background: url('bg.jpg');
 }
 button{
 	cursor: pointer;
@@ -67,5 +67,5 @@ button:hover{
 	border: 1px solid #000;
 	border-radius: 20px;
 	box-shadow: 0 0 20px;
-	background: url('../img/bg.jpg');
+	background: url('bg.jpg');
 }
