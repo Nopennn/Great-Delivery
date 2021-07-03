@@ -1,11 +1,11 @@
 body {
-    background:  url('../img/fon1.jpg');
+    background:  url('fon1.jpg');
 }
 
 
 
 .block1 {
-	background:  url('../img/menu6.jpg') no-repeat 0 0/100% 100% ;
+	background:  url('menu6.jpg') no-repeat 0 0/100% 100% ;
 	border-radius: 15px;
     box-shadow: 0 0 10px #000;
     width: 300px;
@@ -16,7 +16,7 @@ body {
 }
 
 .block2 {
-	background:  url('../img/menu3.jpg') no-repeat center;
+	background:  url('menu3.jpg') no-repeat center;
 	border-radius: 15px;
     box-shadow: 0 0 10px #000;
     width: 300px;
@@ -27,12 +27,12 @@ body {
 }
 
 .btn {
-    display: inline-block; /* Строчно-блочный элемент */
-    background: #8C959D; /* Серый цвет фона */
-    color: #fff; /* Белый цвет текста */
-    padding: 1rem 1.5rem; /* Поля вокруг текста */
-    text-decoration: none; /* Убираем подчёркивание */
-    border-radius: 3px; /* Скругляем уголки */
+    display: inline-block;
+    background: #8C959D;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 3px;
     margin-top: 230px;
     margin-left: 60px;
    }
