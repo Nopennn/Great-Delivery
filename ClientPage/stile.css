@@ -15,7 +15,7 @@ body {
 }
 
 .block {
-	background:  url('../img/fon1.jpg');
+	background:  url('bg.jpg');
 	border-radius: 15px;
     box-shadow: 0 0 10px #000;
 }
