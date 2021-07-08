@@ -1,0 +1,31 @@
+
+.VE {
+	color: darkorange;
+
+}
+.VE1 {
+	color: black;
+	font-style: italic;
+}
+
+body {
+    background:   center fixed;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+}
+
+.block {
+	background:  url('../img/fon1.jpg');
+	border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+}
+
+button{
+	cursor: pointer;
+	height: 70px;
+	width: 250px;
+	font-size: 22px;
+	background: #696969;
+	color: white;
+	border-radius: 8px;
+}

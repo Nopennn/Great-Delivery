@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+}
+
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,:active{
+	outline: none;
+}
+
+a:focus,a:active{
+	outline: none;
+}
+
+nav,footer,header,aside{
+	display: block;
+}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 17px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{
+	font-family: inherit;
+	font-size: 20px;
+}
+input{
+	border: 1px solid #000;
+}
+body{
+	background: url('../img/fon1.jpg');
+}
+button{
+	cursor: pointer;
+	height: 70px;
+	width: 250px;
+	font-size: 22px;
+	background: #696969;
+	color: white;
+	border-radius: 8px;
+}
+button:hover{
+	color: #FF8C00;
+	border: 4px solid #FF8C00;
+}
+.Orange{
+	color: #FF8C00;
+}
+.RegBlock{
+	padding: 20px;
+	margin: 20px;
+	min-width: 500px;
+	border: 1px solid #000;
+	border-radius: 20px;
+	box-shadow: 0 0 20px;
+	background: url('../img/fon1.jpg');
+}
