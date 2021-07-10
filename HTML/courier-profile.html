@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Проект ВЕ</title>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/superstile.css') }}">
+</head>
+<body>
+<a href="/" class="btn">Выйти</a>
+<div class="blockx">
+    <h1> <span class="VE">В.Е.</span><span class="VE1">ликая</span> <span class="VE">служба</span> <span class="VE1">доставки</span><span class="VE">!</span> </h1>
+    <h2>Личный кабинет</h2>
+
+    <br>
+    {{ error }}
+    <br>
+
+    <form action="/courier-profile/{{ id }}/order_get" method="get" enctype="mulripart/form-data">
+                    <button class="Reg">Взять заказ</button>
+    </form>
+
+    <br>
+
+    <h2><span>Мои заказы</span></h2>
+
+        <table border="2">
+            <tr>
+                <td>Номер заказа</td>
+                <td>описание</td>
+                <td>статус</td>
+                <td>дата доставки</td>
+                <td>адрес</td>
+                {% for el in orders %}
+                    <tr>
+                        <td>{{ el.id }}</td>
+                        <td>{{ el.order_description }}</td>
+                        <td>{{ el.status }}</td>
+                        <td>{{ el.data_arrived }}</td>
+                        <td>{{ el.adress}}</td>
+                        {% if el.status == "Взят курьером" %}
+                            <form action="/courier-profile/{{ el.id }}/order_close" method="get" enctype="mulripart/form-data">
+                                <button class="Reg">Завершить заказ</button>
+                            </form>
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </tr>
+        </table>
+</div>
+</body>
+</html>
